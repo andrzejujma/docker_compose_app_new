@@ -11,7 +11,7 @@ const client = new MongoClient(uri);
  
 //Hello World
 app.get('/', (req, res) => {
-    res.send('Witaj znowu');
+    res.send('Witaj znowu i znowu');
  })
  
  
