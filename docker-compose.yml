@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: ernabo/backend:latest
+    image: andrzejujma/backend:latest
     ports: 
     - "3000:3000"
     - "27017:27017"
